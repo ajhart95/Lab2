@@ -31,9 +31,12 @@ public class DeckTest {
 	}
 
 	@Test
-	public void BuildDeck(){	
+	public void BuildDeck(){
+		//assert that the size of the full deck is 52 cards
+		
 	}
-
+	@Test
 	public void DeckOverDraw()  {
+		//assert true that you cannot draw more than 52 cards
 	}
 }
